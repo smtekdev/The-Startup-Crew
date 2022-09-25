@@ -777,7 +777,7 @@
 				  <img width="500" height="300" src="assets/images/paralax-bg/para1.png" class="wp-post-image" alt=""></a>
 		  </div>
 		<div class="img-icon-box-content">
-		  <a href="#" class="title">WE ENSURE COMMITMENT</a>
+		  <a href="#" class="title">ENSURE COMMITMENT</a>
 		  <div class="wasf">
 			  <p>It is a way to ensure commitment toward a common goal and support the establishment of trust, when the foundation for collaboration is written in place.</p>
 		  </div>
