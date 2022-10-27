@@ -25,3 +25,4 @@ submit.addEventListener("click", (e) => {
         contactForm.reset();
     });
 });
+

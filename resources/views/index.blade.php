@@ -162,9 +162,198 @@
 
 
 
+*{
+font-family:sans-serif;
+}
+.about-summary-content2>p{
+font-family:unset;
+}
+.creative-comunication-content p{
+font-family:unset;
+}
+
+/*
+.center{
+position:absolute;
+top:50%;
+left:50%;
+transform:translate(-50%, -50%);
+
+}
+
+.center button{
+padding:10px 20px;
+font-size:15px;
+font-weight:600;
+color:#222;
+background:#f5f5f5;
+border:none;
+outline:none;
+cursor:pointer;
+border-radius:5px;
+}
+.popup{
+position:absolute;
+top:-150%;
+left:50%;
+opacity:0;
+transform:translate(-50%, -50) scale(1.25);
+width:380px;
+padding:20px 30px;
+background:#fff;
+box-shadow:2px 2px 5px 5px rgba(0,0,0,0.15);
+border-radius:10px;
+}
+.popup .close-btn{
+position:absolute;
+top:10px;
+right:10px;
+width:15px;
+height:15px;
+background:#888;
+color:#eee;
+text-align:center;
+line-height:15px;
+border-radius:15px;
+cursor:pointer;
+}
+.popup .form h2{
+text-align:cemter;
+color:#222;
+margin:10px 0px 20px;
+font-size:25px;
+}
+.popup .form .form-element{
+margin:15px 0px;
+}
+
+.popup .form .form-element label{
+font-size:14px;
+color:#222;
+}
+
+.popup .form .form-element input[type="text"],
+.popup .form .form-element input[type="password"]{
+margin-top:5px;
+display:block;
+width:100%;
+padding:10px;
+outline:none;
+border:1px solid #aaa;
+border-radius:5px;
+}
+.popup .form .form-element input[type="checkbox"]{
+margin-right:5px;
+}
+
+.popup .form .form-element button{
+width:100%;
+height:40px;
+border:none;
+outline:none;
+font-size:16px;
+background:#222;
+color:#f5f5f5;
+border-radius:10px;
+cursor:pointer;
+}
+.popup .form .form-element a{
+display:block;
+text-align:right;
+font-size:15px;
+color:#1a79ca;
+text-decoration:none;
+font-weight:600;
+} */
 
 
 
+
+
+
+
+#contact { 
+  -webkit-user-select: none;        
+  -moz-user-select: none; 
+  -ms-user-select: none; 
+  margin: 4em auto;
+  width: 100px; 
+  height: 30px; 
+  line-height: 30px;
+  background: teal;
+  color: white;
+  font-weight: 700;
+  text-align: center;
+  cursor: pointer;
+  border: 1px solid white;
+}
+
+#contact:hover { background: #666; }
+#contact:active { background: #444; }
+
+#contactForm { 
+  display: none;
+  z-index:10;
+margin-top:222px;
+  border: 6px solid salmon; 
+  padding: 1.8em;
+  width: 694px;
+  text-align: center;
+  background: #fff;
+  position: fixed;
+  top:50%;
+  left:50%;
+  transform: translate(-50%,-50%);
+  -webkit-transform: translate(-50%,-77%)
+  
+}
+
+input, textarea { 
+  margin: .8em auto;
+  font-family: inherit; 
+  text-transform: inherit; 
+  font-size: inherit;
+  
+  display: block; 
+  width: 280px; 
+  padding: .4em;
+}
+textarea { height: 80px; resize: none; }
+
+.formBtn { 
+  width: 140px;
+  display: inline-block;
+  
+  background: teal;
+  color: #fff;
+  font-weight: 100;
+  font-size: 1.2em;
+  border: none;
+  height: 60px;
+}
+
+/*.popup{
+background:rgba(0,0,0,0.6) !important;
+}*/
+
+
+
+/*
+.popup{
+background: rgba(0, 0, 0, 0.6);
+width:100%;
+height:100%;
+position: absolute;
+top:0;
+display:flex;
+justify-content: center;
+align-items:center;
+}
+
+.popup-content{
+height:250px;
+width:500px;
+}*/
 </style>
 
 </head>
@@ -606,13 +795,13 @@
 	<div class="col-lg-6">
 	<div class="about-skroll-images">
 	<div class="about-skroll-image image-1" data-bottom="transform:translateX(-50px)" data-top="transform:translateX(0px);">
-	<img src="assets/images/about-img-1.png" alt="">
+	<img src="assets/images/about-img-1.jpg" alt="">
 	</div>
 	<div class="about-skroll-image image-2" data-bottom="transform:translateX(50px)" data-top="transform:translateX(0px);">
-	<img src="assets/images/about-img-2.png" alt="">
+	<img src="assets/images/about-img-2.jpg" alt="">
 	</div>
 	<div class="about-skroll-image image-3" data-bottom="transform:translateY(-50px)" data-top="transform:translateY(0px);">
-	<img src="assets/images/about-img-3.png" alt="">
+	<img src="assets/images/about-img-3.jpg" alt="">
 	 </div>
 	<div class="about-skroll-image image-4" data-bottom="transform:translateX(-50px)" data-top="transform:translateX(0px);">
 	<img src="assets/images/about-dots.png" alt="">
@@ -1340,6 +1529,64 @@ X
 </div>
 </div>
 
+<!--
+<div class="center">
+  <button id="show-login">Login</button>
+  </div>
+  <div class="popup">
+  <div class="close-btn">&times;</div>
+  <div class="form">
+  <h2>Log in</h2>
+  <div class="fomr-element">
+  <label for="email">Email</label>
+  <input type="text" id="email" placeholder="Enter password">
+  
+  </div>
+  
+  <div class="form-element">
+  <input type=checkbox id="remember-me">
+  <label for="remember-me">Remember me</label>
+  </div>
+  <div class=form-element>
+  <button>Sign in</button>
+  
+  </div>
+<div class="form-element">
+<a href="#">Forgot Password</a>
+</div>  
+</div>
+
+-->
+
+
+
+
+
+
+
+
+
+<div style="background:#000000;">
+<div id="contactForm" class="popup">
+
+  <h1>Keep in touch!</h1>
+  <small>I'll get back to you as quickly as possible</small>
+  
+  <form action="#">
+    <input placeholder="Name" type="text" required />
+    <input placeholder="Email" type="email" required />
+    <input placeholder="Subject" type="text" required />
+    <textarea placeholder="Comment"></textarea>
+    <input class="formBtn" type="submit" />
+    <input class="formBtn" type="reset" />
+  </form>
+</div>
+</div>
+
+
+
+
+
 
 	<section class="calltoaction-area-2" data-delighter="start:0.80" style="background-image: url(assets/images/call-to-action-2.jpg);">
 		<div class="container">
@@ -1348,7 +1595,7 @@ X
 		<div class="col-lg-6 mx-auto">
 		<div class="call-to-action text-center action-style2">
 		<h2 class="content-title">Wanna Get New Test of Modern Design Trend?</h2>
-		<a href="{{route("contact")}}" class="btn btn-primary style5 icon-right">GET A QUOTE <i class="icon icon-arrow-right"></i></a>
+		<a href="#" id="con" class="btn btn-primary style5 icon-right">GET A QUOTE <i class="icon icon-arrow-right"></i></a>
 		</div>
 		</div>
 		</div>
@@ -1403,7 +1650,38 @@ X
 <script src="blueket/js/blueket.plugin.js"></script>  
 <script src="blueket/js/theme.darkmode.js"></script> 
 <script src="blueket/js/preloader.js"></script> 
-<script src="blueket/js/custom.js"></script>    
+<script src="blueket/js/custom.js"></script>
+
+<script>
+$(function() {
+  
+  // contact form animations
+  $('#con').click(function() {
+    $('#contactForm').fadeToggle();
+  })
+  $(document).mouseup(function (e) {
+    var container = $("#contactForm");
+
+    if (!container.is(e.target) // if the target of the click isn't the container...
+        && container.has(e.target).length === 0) // ... nor a descendant of the container
+    {
+        container.fadeOut();
+    }
+  });
+  
+});
+
+const btn = document.getElementById('btn');
+
+btn.addEventListener('click', function onClick(event) {
+  const box = document.getElementById('box');
+
+  box.style.backgroundColor = 'coral';
+
+  // Ì†ΩÌ±áÔ∏è optionally change text color
+  // box.style.color = 'white';
+});
+</script>    
 <script>
 $(window).load(function() {
 // image manipulation code
