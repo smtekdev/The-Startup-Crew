@@ -380,7 +380,7 @@
                 <!-- End of .grid-item -->
             </div>
             <!-- End of .grid -->
-            <a href="portfolio.html" class="custom-btn btn-big grad-style-ef btn-full">DISCOVER MORE WORKS</a>
+            <a href="{{route('portfolio)}}" class="custom-btn btn-big grad-style-ef btn-full">DISCOVER MORE WORKS</a>
         </div>
         <!-- End of .template-showcase -->
     </div>

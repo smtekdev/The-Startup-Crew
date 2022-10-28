@@ -3,6 +3,9 @@
     <div class="container">
     <nav class="xs-menus clearfix">
     <div class="nav-header">
+    <a href="{{route('index')}}">
+    <img src="assets/images/startuplogo.png" alt="">
+    </a>
     <!-- <a class="nav-brand" href="index.html">
     <img src="assets/images/logo.png" alt="">
     </a> -->
@@ -138,9 +141,9 @@
     </div> -->
     </li>
     <li><a href="{{route('graphic')}}">BRANDING</a></li>
-        <li><a href="{{route('webdesign')}}">WEB DESIGN</a></li>
+       <!-- <li><a href="{{route('webdesign')}}" >WEB DESIGN</a></li> -->
         <li>
-            <li><a href="{{route('software')}}">SOFTWARE DEVELOPMENT</a></li>
+            <li><a href="{{route('software')}}">SOFTWARE DEVELOPMENT</a></li> 
             <li>
                 <li><a href="{{route('app')}}">APPS</a></li>
                 <li><a href="{{route('social')}}">SMM</a></li>
@@ -149,34 +152,34 @@
     <a href="#">SERVICES</a>
     <ul class="nav-dropdown xs-icon-menu">
     <li class="single-menu-item">
-    <a href="{{route('web')}}">Web Development</a>
+    <a href="{{route('web')}}" style="background-color:#13B3D4;">Web Development</a>
     </li>
    <li class="single-menu-item">
-    <a href="{{route('app')}}"> App Development</a>
+    <a href="{{route('app')}}" > App Development</a>
     </li> 
     <li class="single-menu-item">
-        <a href="{{route('social')}}"> Social Media Marketing</a>
+        <a href="{{route('social')}}" style="background-color:#13B3D4;"> Social Media Marketing</a>
         </li>
         <li class="single-menu-item">
-            <a href="{{route('search')}}"> Search Engine Optimization</a>
+            <a href="{{route('search')}}" > Search Engine Optimization</a>
             </li>
             <li class="single-menu-item">
-                <a href="{{route('webdesign')}}"> Web Designing</a>
+                <a href="{{route('webdesign')}}" style="background-color:#13B3D4;"> Web Designing</a>
                 </li>
                 <li class="single-menu-item">
-                    <a href="{{route('videoediting')}}"> Video Editing</a>
+                    <a href="{{route('videoediting')}}" > Video Editing</a>
                     </li>
                     <li class="single-menu-item">
-                        <a href="{{route('graphic')}}"> Graphic Design</a>
+                        <a href="{{route('graphic')}}" style="background-color:#13B3D4;"> Graphic Design</a>
                         </li>
                         <li class="single-menu-item">
-                            <a href="{{route('sass')}}"> SAAS</a>
+                            <a href="{{route('sass')}}" > SAAS</a>
                             </li>
                             <li class="single-menu-item">
-                                <a href="{{route('content')}}"> Content Writting</a>
+                                <a href="{{route('content')}}" style="background-color:#13B3D4;"> Content Writting</a>
                                 </li>
                                 <li class="single-menu-item">
-                                    <a href="{{route('booktranslate')}}"> Book Translation</a>
+                                    <a href="{{route('booktranslate')}}" > Book Translation</a>
                                     </li>
     </ul>
     </li>

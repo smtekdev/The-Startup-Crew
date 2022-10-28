@@ -31,6 +31,12 @@
 
 	<link rel="stylesheet" href="assets/css/responsive.css">
 
+<style>
+.nav-menus-wrapper .nav-menu {
+padding-right:34px !important;
+}
+</style>
+
 
 <script src="https://www.gstatic.com/firebasejs/8.2.1/firebase-app.js"></script>
 <script src="https://www.gstatic.com/firebasejs/8.2.1/firebase-firestore.js"></script>
@@ -80,13 +86,14 @@
 							<li>
 								<strong>Address</strong>
 								<div class="list-content">
-									<a href="#" target="_blank">155 Mark Street, Dixon Avenue New York, NY-45845</a>
+									<a href="#" target="_blank">2619 Wilshire Blvd,
+Los Angeles, CA 900575</a>
 								</div>
 							</li>
 							<li>
 								<strong>Phone</strong>
 								<div class="list-content">
-									<a href="#">+1(548) 215-3658</a>
+									<a href="#">(213) 457-3188</a>
 								</div>
 							</li>
 							<li>

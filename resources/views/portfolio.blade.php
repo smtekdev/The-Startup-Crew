@@ -28,6 +28,11 @@
 <link rel="stylesheet" href="assets/css/style.css">
 
 <link rel="stylesheet" href="assets/css/responsive.css">
+<style>
+.nav-menus-wrapper .nav-menu {
+padding-right:34px !important;
+}
+</style>
 </head>
 <body>
 <!--[if lt IE 10]>

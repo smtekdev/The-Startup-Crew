@@ -4,13 +4,13 @@
 <head>
 <meta charset="utf-8">
 <meta http-equiv="x-ua-compatible" content="ie=edge">
-<title>Digital Agency</title>
+<title>My Startup Crew - Digital Agency</title>
 <meta name="description" content="">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <link href="../css?family=Open+Sans:400,700%7CRoboto:400,500,700,900%7CPlayfair+Display:400,700,700i,900,900i%7CWork+Sans:400,500,600,700" rel="stylesheet">
 
 <link rel="stylesheet" href="assets/css/signatra-font.css">
-<link rel="icon" type="image/png" href="favicon.ico">
+<link rel="icon" type="image/png" href="assets/fav.png">
 
 <link rel="apple-touch-icon" href="apple-touch-icon.png">
 <link rel="stylesheet" href="assets/css/font-awesome.min.css">
@@ -529,7 +529,7 @@ width:500px;
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-lg-4 col-md-6 m-b-30">
-                    <a href="logo-and-branding.html" target="_blank" rel="noopener" class="service-box text-center content-block">
+                    <a href="{{route('graphic')}}" target="_blank" rel="noopener" class="service-box text-center content-block">
                         <div class="box-bg grad-style-cd"></div>
                         <span class="icon-container grad-style-cd-light">
                             <i class="ml-des-62-Precision-compasses-graphics-design-tool-interface txt-grad-cd"></i>
@@ -542,7 +542,7 @@ width:500px;
                 <!-- End of .col-md-4 -->
 
                 <div class="col-lg-4 col-md-6 m-b-30">
-                    <a href="website-design.html" target="_blank" rel="noopener" class="service-box text-center content-block">
+                    <a href="{{route('web')}}" target="_blank" rel="noopener" class="service-box text-center content-block">
                         <div class="box-bg grad-style-ab"></div>
                         <span class="icon-container grad-style-ab-light">
                             <i class="ml-des-57-upload-download-sync-application-device-mobile-computer txt-grad-ab"></i>
@@ -555,7 +555,7 @@ width:500px;
                 <!-- End of .col-md-4 -->
 
                 <div class="col-lg-4 col-md-6 m-b-30">
-                    <a href="mobile-app-development.html" target="_blank" rel="noopener" class="service-box text-center content-block">
+                    <a href="{{route('app')}}" target="_blank" rel="noopener" class="service-box text-center content-block">
                         <div class="box-bg grad-style-ef"></div>
                         <span class="icon-container grad-style-ef-light">
                             <i class="ml-tec-45-responsive-mobile-phone-tablet-computer-desktop-monitor-laptop txt-grad-ef"></i>
@@ -568,7 +568,7 @@ width:500px;
                 <!-- End of .col-md-4 -->
 
                 <div class="col-lg-4 col-md-6 m-b-30">
-                    <a href="search-engine-optimization.html" target="_blank" rel="noopener" class="service-box text-center content-block">
+                    <a href="{{route('search')}}" target="_blank" rel="noopener" class="service-box text-center content-block">
                         <div class="box-bg grad-style-cd"></div>
                         <span class="icon-container grad-style-cd-light">
                             <i class="ml-tec-8-search-magnifier-computer-desktop-monitor-laptop txt-grad-cd"></i>
@@ -581,7 +581,7 @@ width:500px;
                 <!-- End of .col-md-4 -->
 
                 <div class="col-lg-4 col-md-6 m-b-30">
-                    <a href="pay-per-click.html" target="_blank" rel="noopener" class="service-box text-center content-block">
+                    <a href="{{route('webdesign')}}" target="_blank" rel="noopener" class="service-box text-center content-block">
                         <div class="box-bg grad-style-ab"></div>
                         <span class="icon-container grad-style-ab-light">
                             <i class="ml-symtwo-34-cursor-click-browser-website-arrow-computer txt-grad-ab"></i>
@@ -594,7 +594,7 @@ width:500px;
                 <!-- End of .col-md-4 -->
 
                 <div class="col-lg-4 col-md-6 m-b-30">
-                    <a href="social-media-marketing.html" target="_blank" rel="noopener" class="service-box text-center content-block">
+                    <a href="{{route('social')}}" target="_blank" rel="noopener" class="service-box text-center content-block">
                         <div class="box-bg grad-style-ef"></div>
                         <span class="icon-container grad-style-ef-light">
                             <i class="ml-dat-63-database-computer-network-internet-globe-server txt-grad-ef"></i>
@@ -1468,7 +1468,7 @@ X
 <img src="assets/images/color-logo.png" alt="sidebar logo">
 </a> -->
 </div>
-<p>Far far away, behind the word moun tains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of </p>
+<p>We are a team of creative professionals who work together to provide high quality services to our clients. We have been working in the industry since 2009 and we have gained experience in many different areas such as website design, app development, social media marketing, seo, book translation, content writing, saas, video editing logo design, brochure design, business card design, flyer design, etc. </p>
 <ul class="sideabr-list-widget">
 <li>
 <div class="media">
@@ -1476,8 +1476,8 @@ X
 <img src="assets/images/location.png" alt="">
 </div>
 <div class="media-body">
-<p>759 Pinewood Avenue</p>
-<span>Marquette, Michigan</span>
+<p>72619 Wilshire Blvd</p>
+<span>Los Angeles, CA 90057</span>
 </div>
 </div>
 </li>
@@ -1498,8 +1498,8 @@ X
 <img src="assets/images/phone.png" alt="">
 </div>
 <div class="media-body">
-<a href="tel:906-624-2565">906-624-2565</a>
-<span>Mon-Fri 8am-5pm</span>
+<a href="tel:213-457-3188">(213) 457-3188</a>
+<span>Mon-Sat 8am-5pm</span>
 </div>
 </div>
 </li>

@@ -10,8 +10,9 @@
     <img src="assets/images/footer-logo.png" alt="footer logo">
     </a> -->
     </div>
-    <p style="font-family: inter;"><a href="#" target="_blank">5272 Lyngate Ct Burke, VA <br> 2015-1688</a> </p>
-    <p style="font-family: inter;color: #7a7a7a;">Tel:<a href="#"> +1 998 150 30 20</a> <br> Mail: <a href="#">info@agency.com</a></p>
+    <p style="font-family: inter;"><a href="#" target="_blank">2619 Wilshire Blvd,
+Los Angeles,  <br> CA 90057</a> </p>
+    <p style="font-family: inter;color: #7a7a7a;">Tel:<a href="#"> (213) 457-3188</a> <br> Mail: <a href="#">info@agency.com</a></p>
     </div>
     </div>
     <div class="col-md-6 col-lg-2">
